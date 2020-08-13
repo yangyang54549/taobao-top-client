@@ -1,9 +1,9 @@
 {
-    "name": "orzcc/taobao-top-client",
+    "name": "yangyang54549/taobao-top-client",
     "type": "library",
     "description": "Taobao top client(SDK) for laravel",
     "keywords": ["taobao", "laravel", "sdk", "api"],
-    "homepage": "https://github.com/orzcc/taobao-top-client",
+    "homepage": "https://github.com/yangyang54549/taobao-top-client",
     "license": "MIT",
     "authors": [
         {
