@@ -59,6 +59,11 @@ class TbkDgOptimusMaterialRequest
 	 **/
 	private $pageSize;
 
+    /**
+     * 选品库投放id
+     */
+	private $favoritesId;
+
 	private $apiParas = array();
 
 	public function setAdzoneId($adzoneId)
@@ -170,6 +175,17 @@ class TbkDgOptimusMaterialRequest
 	{
 		return $this->pageSize;
 	}
+
+    public function setFavoritesId($favoritesId)
+    {
+        $this->favoritesId = $favoritesId;
+        $this->apiParas["favorites_id"] = $favoritesId;
+    }
+
+    public function getFavoritesId()
+    {
+        return $this->favoritesId;
+    }
 
 	public function getApiMethodName()
 	{
